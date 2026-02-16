@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TG Rohit Gaming</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        /* Background Video */
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            object-fit: cover;
+            filter: brightness(40%);
+        }
+
+        header {
+            padding: 30px;
+            font-size: 35px;
+            font-weight: bold;
+            text-shadow: 0 0 10px red, 0 0 20px orange;
+        }
+
+        .section {
+            padding: 80px 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 35px;
+            font-size: 18px;
+            background: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 0 15px red;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            color: red;
+            box-shadow: 0 0 25px orange;
+        }
+
+        iframe {
+            width: 90%;
+            max-width: 700px;
+            height: 400px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+
+        footer {
+            padding: 20px;
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Background Gaming Video (Replace with your own video link if needed) -->
+<video autoplay muted loop>
+    <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+</video>
+
+<header>
+    🔥 TG Rohit Gaming 🔥
+</header>
+
+<div class="section">
+    <h1>Welcome to TG Rohit Gaming 🎮</h1>
+    <p>
+        💥 Pro gameplay <br>
+        💥 Killer headshots <br>
+        💥 Short videos & highlights <br>
+        💥 Funny moments + tips & tricks <br><br>
+        🔥 Booyah Everyday! 🔥
+    </p>
+
+    <a class="btn" href="https://www.youtube.com/channel/UCTi3OQbmk_f0BzwdipW8BQg" target="_blank">
+        🔔 Visit My Channel
+    </a>
+</div>
+
+<div class="section">
+    <h1>Latest Video</h1>
+
+    <!-- Replace VIDEO_ID with your latest video ID -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<div class="section">
+    <h1>Contact Me</h1>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" placeholder="Your Email"><br>
+    <textarea rows="4" placeholder="Your Message"></textarea><br>
+    <button class="btn">Send Message</button>
+</div>
+
+<footer>
+    © 2026 TG Rohit Gaming | All Rights Reserved 🚀
+</footer>
+
+</body>
+</html>
